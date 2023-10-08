@@ -49,7 +49,7 @@ else if($percentage>=60 && $percentage<=74.00){
 	$Grade="First Class";
 }
 else if($percentage>=75 && $percentage<=100.00){
-	$Grade="Distinnction";
+	$Grade="Distinction";
 }
 	
 ?>
