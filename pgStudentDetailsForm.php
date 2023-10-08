@@ -12,157 +12,157 @@
 </head>
 <body>
   <h3><center>Student Details Form</center></h3>
-  <div class="container background-color">
-    <div class="container page-body-wrapper">
-      <div class="content-wrapper"><br>
-        <div class="row mb-3">
-		  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12 name mt-3">
-		    <div class="name-content px-1">
-			  <label for="FirstName"><strong>First Name</strong> <code>*</code></label>
-			  <input type="text" class="form-control input" placeholder="FirstName" id="FirstName" />
-		    </div>
-		  </div>
-		  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
-		    <div class="name-content px-1">
-			  <label for="Lastname"><strong>Last Name</strong> <code>*</code></label>
-			  <input type="text" class="form-control input" id="Lastname" placeholder="Last Name" />
-		    </div>
-		  </div>
-		  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
-			<div class="name-content px-1">
-			  <label for="Email"><strong>Email</strong> <code>*</code></label>
-			  <input type="text" class="form-control input" id="Email" placeholder="Email" />
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
-			<div class="name-content px-1">
-			  <label for="Batch"><strong>Class</strong><code>*</code></label>
-			  <input type="text" class="form-control input" id="Batch" placeholder="Batch/Class" />
-			</div>
-		  </div>
-		</div><hr>
-		<!---->
-		<div class="row">
-		  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12 mb-3">
-			<div class="row">
-			  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			    <strong>Subjects</strong>
-			  </div>
-			  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-				<div class="form-group">
-				  <input type="text" class="form-control input" id="SubEng" value="English" disabled />
-				</div>
-			  </div>
-			  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-				<div class="form-group">
-				 <input type="text" class="form-control input" id="SubHindi" value="Hindi" disabled />
-				</div>
-			  </div>
-			  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-				<div class="form-group">
-				  <input type="text" class="form-control input" id="SubMaths" value="Maths" disabled />
-				</div>
-			  </div>
-			  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-				<div class="form-group">
-				  <input type="text" class="form-control input" id="SubSci" value="Science" disabled />
-				</div>
-			  </div>
-			  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-				<div class="form-group">
-				  <input type="text" class="form-control input" id="SubHis" value="History" disabled  />
-				</div>
-			  </div>
-			  <div class="col-lg-12">
-				<div class="form-group">
-				  <input type="text" class="form-control input" id="SubGeo" value="Geography" disabled />
-				</div>
-			  </div>
-		  </div>
-		  </div>
-		  <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-		    <div class="row">
-		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-		    <strong>Marks</strong> <code>*</code>
-		  </div>
-		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12  mb-3">
-			<div class="form-group">
-			  <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value= this.value * -1}' id="MarksEng" placeholder="English Marks"></input>
-			</div>
-		  </div>
-		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			<div class="form-group">
-			  <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value= this.value * -1}' id="MarksHin" placeholder="Hindi Marks"></input>
-			</div>
-		  </div>
-		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			<div class="form-group">
-			  <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value= this.value * -1}' id="MarksMaths" placeholder="Maths Marks"></input>
-			</div>
-		  </div>
-		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			<div class="form-group">
-			  <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value= this.value * -1}' id="MarksSci" placeholder="Science Marks"></input>
-			</div>
-		  </div>
-		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			<div class="form-group">
-			  <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value= this.value * -1}' id="MarksHis" placeholder="History Marks"></input>
-			</div>
-		  </div>
-		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			<div class="form-group">
-			  <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value= this.value * -1}' id="MarksGeo" placeholder="Geography Marks"></input>
-			</div>
-		  </div>
-		  </div>	  
-		  </div>
-		  <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-12">
-		  <div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			  <strong>Remarks</strong><code>*</code>
-			</div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			 <div class="form-group">
-			   <input type="text" class="form-control input" id="remarksEng" maxlength="150" placeholder="English Remarks"></input>
-			  </div>
-			</div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			  <div class="form-group">
-				<input type="text" class="form-control input" id="remarksHin" maxlength="150"  placeholder="Hindi Remarks"></input>
-			  </div>
-			</div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			  <div class="form-group">
-				<input type="text" class="form-control input" id="remarksMaths" maxlength="150"  placeholder="Maths Remarks"></input>
-			  </div>
-			</div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			  <div class="form-group">
-			  <input type="text" class="form-control input" id="remarksSci" maxlength="150"  placeholder="Science Remarks"></input>
-			  </div>
-			</div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			  <div class="form-group">
-				<input type="text" class="form-control input" id="remarksHis" maxlength="150"  placeholder="History Remarks"></input>
-			  </div>
-			</div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-			  <div class="form-group">
-				<input type="text" class="form-control input" id="remarksGeo" maxlength="150"  placeholder="Geography Remarks"></input>
-			  </div>
-			</div>
-		  </div>
-		  </div>
-		  <div class="row mb-3">
-		    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12"> 
-			  <button type="button" id="btnAddrecord" class="button" onclick="addrecord();">Add Record</button>
-		    </div>
-		  </div>
-	    </div>
-	  </div>
+    <div class="container background-color">
+      <div class="container page-body-wrapper">
+        <div class="content-wrapper"><br>
+          <div class="row mb-3">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12 name mt-3">
+              <div class="name-content px-1">
+                <label for="FirstName"><strong>First Name</strong> <code>*</code></label>
+                <input type="text" class="form-control input" placeholder="FirstName" id="FirstName" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
+              <div class="name-content px-1">
+                <label for="Lastname"><strong>Last Name</strong> <code>*</code></label>
+                <input type="text" class="form-control input" id="Lastname" placeholder="Last Name" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
+              <div class="name-content px-1">
+                <label for="Email"><strong>Email</strong> <code>*</code></label>
+                <input type="text" class="form-control input" id="Email" placeholder="Email" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
+              <div class="name-content px-1">
+                <label for="Batch"><strong>Class</strong><code>*</code></label>
+                <input type="text" class="form-control input" id="Batch" placeholder="Batch/Class" />
+              </div>
+            </div>
+          </div><hr>
+          <!---->
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12 mb-3">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <strong>Subjects</strong>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="SubEng" value="English" disabled />
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="SubHindi" value="Hindi" disabled />
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="SubMaths" value="Maths" disabled />
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="SubSci" value="Science" disabled />
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="SubHis" value="History" disabled  />
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="SubGeo" value="Geography" disabled />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <strong>Marks</strong> <code>*</code>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12  mb-3">
+                  <div class="form-group">
+                    <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value= this.value * -1}' id="MarksEng" placeholder="English Marks"></input>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value= this.value * -1}' id="MarksHin" placeholder="Hindi Marks"></input>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value= this.value * -1}' id="MarksMaths" placeholder="Maths Marks"></input>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value= this.value * -1}' id="MarksSci" placeholder="Science Marks"></input>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value=  this.value * -1}' id="MarksHis" placeholder="History Marks"></input>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="number" class="form-control input" onkeyup='if(this.value<0.00){this.value= this.value * -1}' id="MarksGeo" placeholder="Geography Marks"></input>
+                  </div>
+                </div>
+              </div>	  
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-12">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <strong>Remarks</strong><code>*</code>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="remarksEng" maxlength="150" placeholder="English Remarks"></input>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="remarksHin" maxlength="150"  placeholder="Hindi Remarks"></input>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="remarksMaths" maxlength="150"  placeholder="Maths Remarks"></input>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="remarksSci" maxlength="150"  placeholder="Science Remarks"></input>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="remarksHis" maxlength="150"  placeholder="History Remarks"></input>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control input" id="remarksGeo" maxlength="150"  placeholder="Geography Remarks"></input>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12"> 
+                <button type="button" id="btnAddrecord" class="button" onclick="addrecord();">Add Record</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 <script src="js/validation.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/sweetAlert.js"></script>
