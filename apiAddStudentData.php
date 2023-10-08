@@ -1,7 +1,6 @@
 <?php
 include_once "function.php";
 $sign=new Signup();
-
 $first_name=$sign->escapeString($_POST["first_name"]);
 $last_name=$sign->escapeString($_POST["last_name"]);
 $Email=$sign->escapeString($_POST["Email"]);
@@ -21,17 +20,14 @@ $remarksGeo=$sign->escapeString($_POST["remarksGeo"]);
 $exists="";
 $StudentID="";
 
-
 $qryselcount="Select count(*) as cnt from student_details where email='".$Email."'";
 $StudentCnt = $sign->Select($qryselcount);
-
 if($StudentCnt>1){
-	$exists="Exists";
+  $exists="Exists";
 }
 else{
-	$InsertStudentdetails="insert into student_details (first_name,last_name,class,email,English,Hindi,Maths,Science,History,Geography,eng_remarks,hindi_remarks,maths_remarks,science_remarks,history_remarks,geo_remarks) values('".$first_name."','".$last_name."','".$Batch."','".$Email."','".$MarksEng."','".$MarksHin."','".$MarksMaths."','".$MarksSci."','".$MarksHis."','".$MarksGeo."','".$remarksEng."','".$remarksHin."','".$remarksMaths."','".$remarksSci."','".$remarksHis."','".$remarksGeo."')";
-	$StudentID = $sign->FunctionQuery($InsertStudentdetails,true);
-
+  $InsertStudentdetails="insert into student_details (first_name,last_name,class,email,English,Hindi,Maths,Science,History,Geography,eng_remarks,hindi_remarks,maths_remarks,science_remarks,history_remarks,geo_remarks) values('".$first_name."','".$last_name."','".$Batch."','".$Email."','".$MarksEng."','".$MarksHin."','".$MarksMaths."','".$MarksSci."','".$MarksHis."','".$MarksGeo."','".$remarksEng."','".$remarksHin."','".$remarksMaths."','".$remarksSci."','".$remarksHis."','".$remarksGeo."')";
+  $StudentID = $sign->FunctionQuery($InsertStudentdetails,true);
 }
 
 $responsearray=array();

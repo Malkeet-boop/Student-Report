@@ -1,88 +1,74 @@
-::placeholder {
-  opacity: 12;
-}
 .background-color{
     background: #F0F0FE;
 	border-radius:20px;
 }
-
 .content-background{
-   
-    background: #CCFFFF;
-	
+    background: #CCFFFF;	
 }
-
 .photo-text{
-    color: #000;
-font-family: Calibri;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  color: #000;
+  font-family: Calibri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-
 .box{
-    border-radius: 20px;
-    border: 1px dashed #808080;
-    background: #FFF;
-    width: 241px;
-    height: 284px;
-    flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px dashed #808080;
+  background: #FFF;
+  width: 241px;
+  height: 284px;
+  flex-shrink: 0;
 }
-
 .box-text{
-    color: #000;
-    font-family: Calibri;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color: #000;
+  font-family: Calibri;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-
 .box-text2{
-    color: #808080;
-    font-family: Calibri;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #808080;
+  font-family: Calibri;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-
 .checkbox-text{
-    color: #000;
-    font-family: Calibri;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: Calibri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-
 .add-text{
-    color: #40A232;
-    font-family: Calibri;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    background-color: #FFF;
-    border-color: #40A232;
+  color: #40A232;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #FFF;
+  border-color: #40A232;
 }
-
 .adtext{
-    color: #40A232;
-font-family: Calibri;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  color: #40A232;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-
 .button {
-    top:50%;
-    background-color:#5757EB;
-    color: #fff;
-    border:none;
-    border-radius:5px;
-	min-height:50px; 
-    min-width: 120px;
-  }
+  top:50%;
+  background-color:#5757EB;
+  color: #fff;
+  border:none;
+  border-radius:5px;
+  min-height:50px; 
+  min-width: 120px;
+}

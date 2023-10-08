@@ -9,8 +9,7 @@
 		padding: "2rem"
 	});
 };	
- 
-	showAlertRedirect = function(vTitle,vText,vType,vURL){
+showAlertRedirect = function(vTitle,vText,vType,vURL){
 	Swal.fire({
 		title: vTitle,
 		allowOutsideClick: false, 
@@ -24,7 +23,7 @@
 		}
 	});
 };
-    showConfirmAlert = function(vTitle,vText,vIcon,vCallback){
+showConfirmAlert = function(vTitle,vText,vIcon,vCallback){
 	Swal.fire({
 		title: vTitle,
 		allowOutsideClick: false, 
@@ -36,5 +35,4 @@
         vCallback(confirmed && confirmed.value == true);
     });
 };
-	
 })(jQuery);

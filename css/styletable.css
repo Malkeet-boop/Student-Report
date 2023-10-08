@@ -4,22 +4,20 @@ td, th {
   padding: 8px;
 }
 h3{
-	
-	width: 50%; /* set width of last column to 60% */
+  width: 50%; /* set width of last column to 60% */
 }
 table{
-	width: 80%; /* set width of last column to 60% */
-	
+  width: 80%; /* set width of last column to 60% */
 }
 .Column{
-	width: 50%; /* set width of last column to 60% */
+  width: 50%; /* set width of last column to 60% */
 }
 .textbold{
-	font-weight: bold;
+  font-weight: bold;
 }
 .textcenter{
-	text-align: center;
+  text-align: center;
 }
 .textright{
-	text-align: right;
+  text-align: right;
 }
