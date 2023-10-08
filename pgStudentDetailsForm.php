@@ -170,12 +170,12 @@
 <script type='text/javascript'>
 $('input').blur(function()
 {
-	var valplaceholder = $(this).attr("placeholder");
-	var vallblid = $(this).attr("id");
-	var valid = "err" + vallblid;
-	var valtext = "Please enter " + valplaceholder;
-    var check = $(this).val().trim();
-	var checkElementExists = document.getElementById(valid);
+var valplaceholder = $(this).attr("placeholder");
+var vallblid = $(this).attr("id");
+var valid = "err" + vallblid;
+var valtext = "Please enter " + valplaceholder;
+var check = $(this).val().trim();
+var checkElementExists = document.getElementById(valid);
 	if(check=='')
 	{
 		if(!checkElementExists)
@@ -224,11 +224,11 @@ function setErrorOnBlur(inputComponent)
 }
 function setError(inputComponent)
 {
-	var valplaceholder = $(inputComponent).attr("placeholder");
-	var vallblid = $(inputComponent).attr("id");
-	var valid = "errSet" + vallblid;
-	var valtext = "Please enter valid " + valplaceholder;
-	var checkElementExists = document.getElementById(valid);
+var valplaceholder = $(inputComponent).attr("placeholder");
+var vallblid = $(inputComponent).attr("id");
+var valid = "errSet" + vallblid;
+var valtext = "Please enter valid " + valplaceholder;
+var checkElementExists = document.getElementById(valid);
 	if(!checkElementExists)
 	{
 		$("#" + vallblid).parent().addClass('has-danger');
@@ -237,7 +237,7 @@ function setError(inputComponent)
 }
 function removeError(inputComponent)
 {
-	var vallblid = $(inputComponent).attr("id");
+var vallblid = $(inputComponent).attr("id");
 	$("#" + vallblid).parent().removeClass('has-danger');
 	const element = document.getElementById("errSet"+vallblid);
 	if (element)
