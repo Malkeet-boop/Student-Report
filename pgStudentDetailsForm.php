@@ -16,30 +16,30 @@
     <div class="container page-body-wrapper">
       <div class="content-wrapper"><br>
         <div class="row mb-3">
-			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12 name mt-3">
-			   <div class="name-content px-1">
-				<label for="FirstName"><strong>First Name</strong> <code>*</code></label>
-				<input type="text" class="form-control input" placeholder="FirstName" id="FirstName" />
-			   </div>
+		  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12 name mt-3">
+		    <div class="name-content px-1">
+			  <label for="FirstName"><strong>First Name</strong> <code>*</code></label>
+			  <input type="text" class="form-control input" placeholder="FirstName" id="FirstName" />
+		    </div>
+		  </div>
+		  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
+		    <div class="name-content px-1">
+			  <label for="Lastname"><strong>Last Name</strong> <code>*</code></label>
+			  <input type="text" class="form-control input" id="Lastname" placeholder="Last Name" />
+		    </div>
+		  </div>
+		  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
+			<div class="name-content px-1">
+			  <label for="Email"><strong>Email</strong> <code>*</code></label>
+			  <input type="text" class="form-control input" id="Email" placeholder="Email" />
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
-			   <div class="name-content px-1">
-				<label for="Lastname"><strong>Last Name</strong> <code>*</code></label>
-				<input type="text" class="form-control input" id="Lastname" placeholder="Last Name" />
-			   </div>
+		  </div>
+		  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
+			<div class="name-content px-1">
+			  <label for="Batch"><strong>Class</strong><code>*</code></label>
+			  <input type="text" class="form-control input" id="Batch" placeholder="Batch/Class" />
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
-			   <div class="name-content px-1">
-				<label for="Email"><strong>Email</strong> <code>*</code></label>
-				<input type="text" class="form-control input" id="Email" placeholder="Email" />
-			   </div>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12  name mt-3">
-			   <div class="name-content px-1">
-				<label for="Batch"><strong>Class</strong><code>*</code></label>
-				<input type="text" class="form-control input" id="Batch" placeholder="Batch/Class" />
-			   </div>
-			</div>
+		  </div>
 		</div><hr>
 		<!---->
 		<div class="row">
@@ -79,9 +79,9 @@
 				</div>
 			  </div>
 		  </div>
-		</div>
-		<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
-		  <div class="row">
+		  </div>
+		  <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
+		    <div class="row">
 		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
 		    <strong>Marks</strong> <code>*</code>
 		  </div>
@@ -116,8 +116,8 @@
 			</div>
 		  </div>
 		  </div>	  
-		</div>
-		<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-12">
+		  </div>
+		  <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-12">
 		  <div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 mb-3">
 			  <strong>Remarks</strong><code>*</code>
@@ -153,13 +153,14 @@
 			  </div>
 			</div>
 		  </div>
-		</div>
-		<div class="row mb-3">
-		  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12"><button type="button" id="btnAddrecord" class="button" onclick="addrecord();">Add Record</button>
 		  </div>
-		</div>
+		  <div class="row mb-3">
+		    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12"> 
+			  <button type="button" id="btnAddrecord" class="button" onclick="addrecord();">Add Record</button>
+		    </div>
+		  </div>
+	    </div>
 	  </div>
-	 </div>
     </div>
   </div>
 <script src="js/validation.js"></script>
