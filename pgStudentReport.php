@@ -124,8 +124,8 @@ else if($percentage>=75 && $percentage<=100.00){
   </table><br>	
   <table align="center">
     <tr> 
-  	  <th>Grade: <?php echo $Grade;?></th>
-  	  <th>Percentage: <?php echo number_format(round($percentage,2),2)."%";?></th>
+      <th>Grade: <?php echo $Grade;?></th>
+      <th>Percentage: <?php echo number_format(round($percentage,2),2)."%";?></th>
     </tr>
   </table>
 </body>
