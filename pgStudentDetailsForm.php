@@ -196,12 +196,12 @@ var checkElementExists = document.getElementById(valid);
 });
 function setErrorOnBlur(inputComponent)
 {
-	var valplaceholder = $("#" +inputComponent).attr("placeholder");
-	var vallblid = $("#" +inputComponent).attr("id");
-	var valid = "err" + vallblid;
-	var valtext = "Please enter " + valplaceholder;
-    var check = $("#" +inputComponent).val().trim();
-	var checkElementExists = document.getElementById(valid);
+var valplaceholder = $("#" +inputComponent).attr("placeholder");
+var vallblid = $("#" +inputComponent).attr("id");
+var valid = "err" + vallblid;
+var valtext = "Please enter " + valplaceholder;
+var check = $("#" +inputComponent).val().trim();
+var checkElementExists = document.getElementById(valid);
 	if(check=='')
 	{
 		if(!checkElementExists)
